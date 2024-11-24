@@ -44,25 +44,21 @@ a;
 a01231;
 a::b;
 Cluster::Supervisor::__init_cluster_nodes();
----
+--------------------------------------------------------------------------------
 
 (source_file
   (nl)
-  (stmt
-    (expr
-      (id)))
+  (expr
+    (id))
   (nl)
-  (stmt
-    (expr
-      (id)))
+  (expr
+    (id))
   (nl)
-  (stmt
-    (expr
-      (id)))
+  (expr
+    (id))
   (nl)
-  (stmt
-    (expr
-      (id))))
+  (expr
+    (id)))
 
 ================================================================================
 Global IDs
@@ -71,7 +67,7 @@ Global IDs
 global x: ::X;
 global x: GLOBAL::X;
 
----
+--------------------------------------------------------------------------------
 
 (source_file
   (nl)
